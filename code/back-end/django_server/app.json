@@ -1,0 +1,18 @@
+{
+    "keywords": ["python", "django", "static"],
+    "addons": [
+        {
+            "plan": "bucketeer:hobbyist",
+            "as": "BUCKETEER"
+        }
+    ],
+    "DEBUG": {
+      "value": "False"
+    },
+    "env": {
+        "S3_ENABLED": {
+            "description": "Enable to upload & serve static and media files from S3",
+            "value": "True"
+        }
+    }
+}
