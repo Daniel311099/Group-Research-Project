@@ -1,0 +1,1 @@
+- basket is stored on server for data persistence between sessions and for auto processing of offers 
